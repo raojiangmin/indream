@@ -1,0 +1,58 @@
+*{
+      margin: 0;
+      padding: 0;
+      color: darkgrey;
+      font-family:sans-serif;
+}
+.bgDiv{
+    background: url('../images/bg.png');
+    /*background-size: 100%;*/
+    text-align: center;
+    /*overflow: hidden;*/
+
+    background-size: cover;
+}
+.circleDiv{
+    height: 20em;
+    text-align: center;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.circleDiv img:nth-child(1){
+    position: absolute;
+    left: 26%;
+}
+.circleDiv img:nth-child(2){
+    position: absolute;
+    left: 39%;
+    z-index: 1;
+}
+.circleDiv img:nth-child(3){
+    position: absolute;
+    left: 50%;
+}
+.circle{
+    height: 20em;
+}
+.centerDiv{
+    padding:4em 0 8em 0 ;
+    line-height: 2.5em;
+    position:static;
+}
+.sleep,.joinHome{
+    font-size: 1.5em;
+}
+.start{
+    font-size: 2em;
+}
+.joinHome{
+
+    padding-bottom: 2.8em;
+}
+.joinHome img{
+    height: 1em;
+    padding: 0 0 0 1em;
+    vertical-align: middle;
+}
+
+

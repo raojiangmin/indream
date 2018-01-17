@@ -1,0 +1,32 @@
+[
+  {
+  "backImg":"../images/tuijian/00-30-00@2x.png",
+    "play":"../images/tuijian/play.png",
+    "mode":"../images/tuijian/icon@2x.png",
+    "num":11232
+  },
+  {
+    "backImg":"../images/tuijian/think.png",
+    "play":"../images/tuijian/play.png",
+    "mode":"../images/tuijian/icon@2x.png",
+    "num":11232
+  },
+  {
+    "backImg":"../images/tuijian/read.png",
+    "play":"../images/tuijian/play.png",
+    "mode":"../images/tuijian/icon@2x.png",
+    "num":11232
+  },
+  {
+    "backImg":"../images/tuijian/relax.png",
+    "play":"../images/tuijian/play.png",
+    "mode":"../images/tuijian/icon@2x.png",
+    "num":11232
+  },
+  {
+    "backImg":"../images/tuijian/read.png",
+    "play":"../images/tuijian/play.png",
+    "mode":"../images/tuijian/icon@2x.png",
+    "num":11232
+  }
+]

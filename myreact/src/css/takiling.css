@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    background: url("../images/bg.png");
+    background-size:100% auto;
+}
+.takilingDiv{
+    width: 90%;
+    height: 100%;
+    background: url("../images/bg.png");
+    padding: 0 5%;
+    /*background: rgba(255,255,255,0);*/
+}
+.takiling{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 1em;
+
+}
+button{
+    width: 4.4em;
+    height:2.25em;
+    line-height: 2.25em;
+    background: rgba(255,255,255,0);
+    border: .1em solid darkgrey;
+    border-radius: 2.25em;
+    outline:none;
+}
+.takilingP{
+    font-size: 1.5em;
+    display: inline-block;
+    height: 2em;
+    margin: 0;
+}
+input[type='text']{
+    width: 82%;
+    height: 2.8em;
+    background: rgba(255,255,255,0.3);
+    border-radius: 2.8em;
+    border: none;
+    padding: 0 2em;
+    color: darkgrey;
+    margin: 1em 0;
+    outline:none;
+}
+textarea{
+    width:82%;
+    height: 13em;
+    background: rgba(255,255,255,0.3);
+    border-radius: 2.8em;
+    border: none;
+    padding: 0 2em;
+    color: darkgrey;
+    margin: 1em 0;
+    outline:none;
+}
+.request{
+    font-size: 1em;
+    padding-top: 1.5em;
+}
+.request1{
+    font-size: 1em;
+    padding:1em 0 .5em 0;
+}
+.img-div{
+    width: 8em;
+    height: 8em;
+    border-radius: 8em;
+}
+.uploadButton{
+    height: 5em;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: darkgrey;
+    font-family:sans-serif;
+}
+.clockTuDiv{
+    width: 8em;
+    height: 13em;
+    float: left;
+    margin-left:11%;
+}
+.clockImg{
+    width: 8em;
+    height: 8em;
+}
+
+.clockTuDiv>p,h3{
+    color: white;
+    text-align: center;
+}
+.clockTuDiv>h3{
+    font-size: 1em;
+    margin-top: 7%;
+}
+.clockTuDiv>p{
+    font-size: 0.9em;
+    margin-top: 3%;
+}
+.clockDivd{
+    margin-top: 10%;
+}

@@ -1,0 +1,45 @@
+html{
+    background-image: url("../images/u7777.png");
+    background-size:100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: darkgrey;
+    font-family:sans-serif;
+}
+.helpDiv{
+     border-radius: 5%;
+     background-color: white;
+     width: 18.4em;
+     height: 22.4em;
+     margin: 0 auto;
+     margin-top:36% ;
+     text-align: center;
+     position: relative;
+}
+hr:nth-of-type(1){
+    width: 20%;
+    background-color: black;
+    position: absolute;
+    top: 12%;
+    left: 5%;
+}
+hr:nth-of-type(2){
+    width: 20%;
+    background-color: black;
+    position: absolute;
+    top: 12%;
+    right: 5%;
+}
+.helpHr{
+    padding: 10% 0 0 0;
+}
+.helpP{
+    margin-top: 20%;
+}
+.helpP>p{
+    margin-top: 15%;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+html{
+    height: 100%;
+    background: url("../images/u8888.png");
+    background-size:100%;
+}
+.surroundImg>img{
+    width: 90%;
+    margin-left:5%;
+    margin-top: 3%;
+}
+

@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: darkgrey;
+  font-family: sans-serif;
+}
+.indexBox {
+  /* height: 47.6em; */
+  background-color: #fff;
+  background: url("../images/homePage/亮度-对比度-2@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.choose {
+  display: flex;
+  justify-content: space-between;
+  /* border:1px solid red; */
+}
+.Menu {
+  width: 3.5em;
+  height: 1.5em;
+  background: url("../images/homePage/图层-1-拷贝-2@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 2.5em 0 0 2em;
+}
+.leftPic {
+  width: 17em;
+  height: 17em;
+  background: url("../images/homePage/寒风凛冽-拷贝@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.middlePic {
+  width: 17em;
+  height: 13em;
+  background: url("../images/homePage/海潮拍岸-拷贝-2@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.rightPic {
+  width: 17em;
+  height: 17em;
+  background: url("../images/homePage/红泥小炉-拷贝@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Share {
+  width: 3.5em;
+  height: 1.5em;
+  background: url("../images/homePage/分享-(1)@2x.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 2.5em 2em 0 0;
+}
+.playbox {
+  display: flex;
+  justify-content: center;
+  /* border:1px solid rebeccapurple; */
+}
+.play {
+  width: 3.56em;
+  height: 3.56em;
+  background: url("../images/homePage/播放@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.randomPlay {
+  display: flex;
+  justify-content: space-between;
+  /* border:1px solid rebeccapurple; */
+}
+.debugging {
+  width: 1.91em;
+  height: 1.91em;
+  background: url("../images/homePage/调音@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 6.4em;
+}
+.Plays {
+  width: 2.3em;
+  height: 1.8em;
+  background: url("../images/homePage/随机播放@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-right: 6.2em;
+}
+.Album {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+.leftTitle {
+  width: 8.5em;
+  height: 3em;
+  background: url("../images/homePage/雷雨特辑@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 1em;
+  /* border:1px solid red; */
+}
+
+.chooseRain ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 1em;
+  /* border:1px solid red; */
+}
+.chooseRain > ul li {
+  width: 21%;
+  height: 5em;
+  margin: 0 0 1.2em 0;
+  list-style: none;
+  background: url("../images/homePage/rain.png") no-repeat;
+  background-size: 30em auto;
+  font-size: 12pt;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border:1px solid red; */
+}
+.chooseRain > ul li span {
+  height: 2em;
+  display: flex;
+  align-self: flex-end;
+}
+.chooseRain > ul li:nth-child(1) {
+  background-position-x: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.chooseRain > ul li:nth-child(2) {
+  background-position-x: -8em;
+}
+.chooseRain ul li:nth-child(3) {
+  background-position-x: -17.1em;
+}
+.chooseRain ul li:nth-child(4) {
+  background-position-x: -26.3em;
+}
+.chooseRain ul li:nth-child(5) {
+  background-position: 1em -9.1em;
+}
+.chooseRain ul li:nth-child(6) {
+  background-position: -8em -9.1em;
+}
+.chooseRain ul li:nth-child(7) {
+  background-position: -17em -9.1em;
+}
+.chooseRain ul li:nth-child(8) {
+  background-position: -26em -9.1em;
+}
+.chooseRain ul li:nth-child(9) {
+  background-position: 1em -18.1em;
+}
+.chooseRain ul li:nth-child(10) {
+  background-position: -8em -18.1em;
+}
+.chooseRain ul li:nth-child(11) {
+  background-position: -17em -18.1em;
+}
+.chooseRain ul li:nth-child(12) {
+  background: url("../images/homePage/see.png") no-repeat;
+  background-position: center top;
+}
+
+.otherBottom {
+  width: 71pt;
+  height: 39pt;
+  margin: 0 32%;
+  position: relative;
+}
+.otherBottom img {
+  height: 100%;
+}
+/*********************侧边栏*****************************/
+.aside {
+  width: 20em;
+   height: 100%;
+  background: url("../images/aside/侧边栏@2x.png") no-repeat;
+  /* border: 1px solid red; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.logo {
+  width: 116pt;
+  height: 116pt;
+  background: url("../images/aside/logo@2x.png") no-repeat;
+  background-size: cover;
+  /* border:1px solid red; */
+  margin: 2.5em auto;
+}
+.aboutHelp {
+  width:100%;
+  height: 15em;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutHelp ul{
+  width:85%;
+  margin:0  auto;
+  list-style: none;
+  /* background-color: red; */
+}
+.aboutHelp ul li{
+   margin-top: 2em;
+   margin-left: 45%;
+}
+a{
+  color:darkgray;
+  text-decoration: none;
+}
+.aboutHelp img{
+  width:2em;
+  height:2.5em;
+  margin:0 auto;
+  padding-top: 3.2em;
+}
+/************************************* 侧边栏底部 ************************************/
+.Pattern{
+  width:90%;
+  /* border:1px solid red; */
+  margin-top:7em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.Pattern div{
+  text-align: center;
+}
+.Pattern img{
+  width:2.5em;
+  height:2.5em;
+
+}
+
+.bottomPage{
+  width:100%;
+  /* height:20em; */
+  /* border:1px solid red; */
+  margin:auto;
+  position: absolute;
+  bottom:0;
+  background: url("../images/bottom/弹窗面板@2x.png") no-repeat;
+  background-size:100% 100%;
+}
+.bottomPage ul{
+   /* width:95%; */
+   height:14em;
+   display: flex;
+   padding:2.5em;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   flex-direction: row;
+   margin-top: 1em;
+   /* border:1px solid red; */
+   list-style: none;
+}
+.bottomPage ul li{
+  width: 22%;
+  height:4em;
+  margin: 0 0 1.2em 0;
+  list-style: none;
+  background-size: 30em auto;
+  font-size: 12pt;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border:1px solid red; */
+}
+.bottomPage ul li:nth-child(1){
+  background: url("../images/bottom/分享组合@2x.png") no-repeat;
+  background-size:auto 100% ;
+}
+.bottomPage ul li:nth-child(2) {
+  background: url("../images/bottom/随机一组@2x.png") no-repeat;
+  background-size: auto 100%;
+}
+.bottomPage ul li:nth-child(3) {
+  background: url("../images/bottom/个人收藏@2x.png") no-repeat;
+  background-size: auto 100%;
+}
+.bottomPage ul li:nth-child(4) {
+  background: url("../images/bottom/添加收藏@2x.png") no-repeat;
+  background-size:auto 100%;
+}
+.bottomPage ul li:nth-child(5) {
+  background: url("../images/bottom/官方推荐@2x.png") no-repeat;
+  background-size: auto 100%;
+}
+.bottomPage ul li:nth-child(6) {
+  background: url("../images/bottom/热度排行@2x.png") no-repeat;
+  background-size: auto 100%;
+}
+.bottomPage ul li:nth-child(7) {
+  background: url("../images/bottom/音频分类@2x.png") no-repeat;
+  background-size: auto 100%;
+}
+.bottomPage ul li:nth-child(8) {
+  background: url("../images/bottom/3D环绕@2x.png") no-repeat;
+  background-size: auto 100%;
+}
+.bottomPage ul li:nth-child(9){
+   width:3.5em;
+   height:3.5em;
+   margin: 0 auto;
+}
+.bottomPage ul li p{
+  width:3.5em;
+  height:3.5em;
+}

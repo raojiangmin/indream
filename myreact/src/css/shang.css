@@ -1,0 +1,28 @@
+.shangDiv{
+    border: 1px dashed white;
+    border-radius: 100%;
+    width: 4em;
+    height: 4em;
+    margin: 0 auto;
+}
+.shangB{
+    background-color: white;
+    border-radius: 100%;
+    width: 1em;
+    height: 1em;
+}
+.shangZ{
+    background-color: white;
+    border-radius: 100%;
+    width: 2.2em;
+    height: 2.2em;
+    margin: 0 auto;
+}
+.shang>p{
+    color: white;
+    text-align: center;
+}
+.shang{
+
+    /*margin-top: -10%;*/
+}

@@ -1,0 +1,38 @@
+html{
+    height: 100%;
+    background: url("../images/u8888.png");
+    background-size:100%;
+}
+.HuanImg{
+    width: 80%;
+    height: 16em;
+    background-position: center center;
+    background-image: url("../images/u9999.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.HuanP{
+    color: white;
+    text-align: center;
+    font-size: 130%;
+    margin-top: 15%;
+}
+.HuanPp{
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+}
+.HuanPp>p:nth-of-type(1){
+    font-size: 120%;
+}
+.HuanPp>p:nth-of-type(2){
+    font-size: 90%;
+}
+
+
+.divImg{
+    width: 4%;
+    margin: 0 auto;
+    margin-top: 20%;
+}

@@ -1,0 +1,23 @@
+.shareGroupDiv{
+    background-image: url('../images/shareGroup/bg.png');
+    background-size: 100% 100%;
+    text-align: center;
+}
+.close{
+    padding:10em 0 1.6em 0;
+    margin: 0 auto;
+}
+.close>img{
+    width: 2.6em;
+}
+.clickMe>img{
+    height: 28.3em;
+}
+.share{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3.4em 3.8em 3.4em;
+}
+.share>img{
+    height: 3.5em;
+}

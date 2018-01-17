@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: darkgrey;
+    font-family:sans-serif;
+}
+html{
+    height: 100%;
+    background: url('../images/personal/bg.png');
+}
+.personal{
+    background: url('../images/personal/bg.png');
+}
+.personal ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    margin: 0;
+}
+.personal ul li{
+    list-style: none;
+    height: 3em;
+    line-height: 3em;
+}
+.personal ul li img{
+    height: 1.25em;
+    vertical-align: middle;
+}
+.personal ul li a{
+    color: darkgrey;
+    font-size: 1.25em;
+    text-decoration-line:none;
+    /*line-height: 1em;*/
+}
+/*#sliderSegmentedControl{*/
+/*display: flex;*/
+/*justify-content: space-between;*/
+/*padding: 2em 2em 0 1em;*/
+
+/*}*/
+/*#sliderSegmentedControl img{*/
+/*height: 1.25em;*/
+/*vertical-align: middle;*/
+/*}*/
+/*#sliderSegmentedControl>li{*/
+/*list-style: none;*/
+/*font-size: 1.25em;*/
+/*}*/
+/*#sliderSegmentedControl>li>a{*/
+/*color: darkgrey;*/
+/*text-decoration:dashed;*/
+/*/!*border-bottom:1px solid blue; /!* #ccc换成链接的颜色 *!/!*/
+/*/!*display: inline-block;*!/*/
+/*/!*padding-bottom:1px;  /!*这里设置你要空的距离*!/!*/
+/*}*/

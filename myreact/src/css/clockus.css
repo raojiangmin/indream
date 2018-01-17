@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: lightgrey;
+    font-family:sans-serif;
+}
+.clockDiv{
+    position: relative;
+}
+html{
+    height: 100%;
+    background: url("../../src/images/u71.jpg");
+    background-size:100%;
+}
+
+.logo3{
+    width: 1.5em;
+    height: 1.6em;
+    position: absolute;
+    top: 4%;
+    left: 8%;
+}
+.clockH>h1{
+    /*height: 1em;*/
+    /*border: 1px solid red;*/
+    color: white;
+    font-size: 1.7em;
+    /*margin-top: 12%;*/
+    text-align: center;
+}
+.clockH{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: bottom;
+}
+.clockH>span{
+    color: rgb(0,132,255);
+    font-size: 0.4em;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*right: 4%;*/
+}
+/*.clockDb{*/
+    /*/!*border: 1px solid red;*!/*/
+    /*height: 0.1em;*/
+    /*width: 100%;*/
+    /*position: fixed;*/
+/*}*/
+.clockYr{
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+    vertical-align: bottom;
+}
+.clockYr>span{
+    font-size: 170%;
+}
+hr:nth-of-type(1){
+    width: 23%;
+    position: absolute;
+    top:100%;
+    left: 8%;
+}
+hr:nth-of-type(2){
+    width: 23%;
+    position: absolute;
+    /*top:90%;*/
+    right: 8%;
+    vertical-align: bottom;
+}
+
+

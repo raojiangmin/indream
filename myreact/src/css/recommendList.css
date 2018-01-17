@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: darkgrey;
+    font-family:sans-serif;
+}
+.recommendList{
+    height: 8em;
+    background: url("../images/tuijian/00-30-00@2x.png");
+    background-size:cover;
+    /*padding: 1em;*/
+}
+.recommendList2{
+    height: 8em;
+    background: url("../images/tuijian/think.png");
+    background-size: cover;
+    /*padding: 1em;*/
+}
+.recommendList3{
+    height: 8em;
+    background: url("../images/tuijian/read.png");
+    background-size: cover;
+    /*padding: 1em;*/
+}
+.recommendList4{
+    height: 8em;
+    background: url("../images/tuijian/relax.png");
+    background-size: cover;
+    /*padding: 1em;*/
+}
+.recommendList5{
+    height: 8em;
+    background: url("../images/tuijian/read.png");
+    background-size: cover;
+    /*padding: 1em;*/
+}
+.recommend{
+    background-size: 100% auto;
+    vertical-align: middle;
+    display: flex;
+    padding: 0 2em;
+    justify-content: space-around;
+}
+
+.recommend>img{
+    margin-top: 2em;
+}
+.recommend>img:nth-child(1){
+    height:3.1em;
+}
+.recommend>img:nth-child(2){
+    height:1.9em;
+    margin-top: 3em;
+}
+.recommend>img:nth-child(3){
+     height:0.75em;
+    margin-top: 3.5em;
+ }
+.recommend>img:nth-child(4){
+    height:0.75em;
+    margin-top: 3.5em;
+}

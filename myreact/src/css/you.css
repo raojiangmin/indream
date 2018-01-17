@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: darkgrey;
+    font-family:sans-serif;
+}
+.youY{
+    border-radius: 100%;
+    background-color: rgb(2,252,255);
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+.youQ{
+    border-radius: 100%;
+    background-color: rgb(2,252,255);
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 33%;
+    right: 5%;
+}
+.youO{
+    border-radius: 100%;
+    background-color: rgb(2,252,255);
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    top: 44%;
+    right: 9%;
+}
+.youD{
+    border-radius: 100%;
+    background-color: rgb(2,252,255);
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 40%;
+    right: 16%;
+}
+.youX{
+    border: 1px solid rgb(2,252,255);
+    width: 30%;
+    transform: rotate(110deg);
+    position: absolute;
+    top: 38%;
+    right: 2%;
+}
+.you>p{
+    color: white;
+    position: absolute;
+    top: 33%;
+    right: 33%;
+}

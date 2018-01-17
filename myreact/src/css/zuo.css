@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: darkgrey;
+    font-family:sans-serif;
+}
+.zuoY{
+    border-radius: 100%;
+    background-color: white;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.zuoQ{
+    border-radius: 100%;
+    background-color: white;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 33%;
+    left: 25%;
+}
+.zuoO{
+    border-radius: 100%;
+    background-color: white;
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    top: 42%;
+    left: 2%;
+}
+.zuoD{
+    border-radius: 100%;
+    background-color: white;
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.zuoX{
+    border: 1px solid white;
+    width: 30%;
+    transform: rotate(110deg);
+    position: absolute;
+    top: 38%;
+    left: 2%;
+}
+.zuo>p{
+    color: white;
+    position: absolute;
+    top: 33%;
+    left: 33%;
+}

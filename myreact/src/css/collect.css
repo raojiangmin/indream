@@ -1,0 +1,21 @@
+.collect,.collect2,.collect3{
+    height: 6em;
+    padding: 1em;
+}
+.collect{
+    background: url("../images/collect/spriing.png");
+    background-size: 100% auto;
+}
+.collect2{
+    background: url("../images/collect/rain.png");
+    background-size: 100% auto;
+}
+.collect3{
+    background: url("../images/collect/boom.png");
+    background-size: 100% auto;
+}
+.collect>img,.collect2>img,.collect3>img{
+    height: 4em;
+    vertical-align: middle;
+    margin: 1em;
+}
